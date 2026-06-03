@@ -1,0 +1,31 @@
+START
+
+SET playAgain = "yes"
+
+WHILE playAgain equals "yes"
+
+    DISPLAY "Enter an integer:"
+    INPUT number
+
+    DISPLAY "The factors of", number, "are:"
+
+    SET counter = 1
+
+    WHILE counter is less than or equal to number
+
+        IF number MOD counter equals 0 THEN
+            DISPLAY counter
+        ENDIF
+
+        ADD 1 to counter
+
+    ENDWHILE
+
+    DISPLAY "Would you like to continue? (yes/no)"
+    INPUT playAgain
+
+ENDWHILE
+
+DISPLAY "Program ended."
+
+END

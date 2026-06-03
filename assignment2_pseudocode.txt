@@ -1,0 +1,26 @@
+START
+
+SET playAgain = "yes"
+
+WHILE playAgain equals "yes"
+
+    DISPLAY "Enter an integer:"
+    INPUT number
+
+    SET root = square root of number
+
+    IF root is equal to integer value of root THEN
+        DISPLAY number, "has a perfect square root."
+        DISPLAY "The square root is", root
+    ELSE
+        DISPLAY number, "does not have a perfect square root."
+    ENDIF
+
+    DISPLAY "Would you like to continue? (yes/no)"
+    INPUT playAgain
+
+ENDWHILE
+
+DISPLAY "Program ended."
+
+END
