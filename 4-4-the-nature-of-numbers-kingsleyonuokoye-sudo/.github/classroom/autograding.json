@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Student prints 'x is an odd number' for odd inputs",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/odd_number.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student prints 'x is an even number' for even inputs",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/even_number.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student prints 'x has a perfect square root' for perfect squares",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/perfect_square.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student prints 'x does not have a perfect square root' for non-perfect squares",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/non_perfect_square.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student correctly identifies the factors of 9",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/factors_of_9.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student correctly identifies the factors of 21",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/factors_of_21.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Program prompts for another input after initial input",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/program_prompts_for_another_input.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Program exits correctly after 'N' input",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest ./tests/program_exits_correctly.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
